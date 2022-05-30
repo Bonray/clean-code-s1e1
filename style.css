@@ -40,7 +40,7 @@ body {
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.add-task__input-group {
   display: flex;
 }
 
