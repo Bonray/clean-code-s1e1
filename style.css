@@ -62,13 +62,13 @@
 .tasks__checkbox
 .tasks__btn_edit,
 .tasks__btn_delete,
-.btn_add {
+.tasks__btn_add {
   outline: none;
 }
 
 .tasks__btn_edit,
 .tasks__btn_delete,
-.btn_add {
+.tasks__btn_add {
   background: none;
   border: 0px;
   color: #888;
@@ -80,7 +80,7 @@
 
 .tasks__btn_edit:hover,
 .tasks__btn_delete:hover,
-.btn_add:hover {
+.tasks__btn_add:hover {
   color: #3a3a3a;
 }
 
