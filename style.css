@@ -85,7 +85,7 @@
 }
 
 /* Heading */
-.heading{
+.heading {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -123,7 +123,7 @@
 }
 
 /* Task list */
-.tasks__item{
+.tasks__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
