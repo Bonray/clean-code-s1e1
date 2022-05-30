@@ -5,7 +5,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <img class="header__img" src="./eisenhower-matrix.jpg">
       <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">
@@ -14,16 +14,16 @@
     </header>
 
     <main class="container">
-      <section class="add-task" id="topSectionForAddingElementToList">
+      <section class="add-task">
         <h3 class="heading add-task__heading">Add Item</h3>
         <div class="add-task__input-group">
-          <input id="new-task" class="tasks__input tasks__input_add" type="text">
+          <input class="tasks__input tasks__input_add" type="text">
           <button class="btn_add">Add</button>
         </div>
       </section>
       <section class="incompleted-tasks">
         <h3 class="heading">Todo</h3>
-        <ul class="tasks__list" id="incompleteTasks">
+        <ul class="tasks__list tasks__list_incomplete">
           <li class="tasks__item">
             <input class="tasks__checkbox" type="checkbox">
             <label class="tasks__label">Pay Bills</label>
@@ -46,10 +46,10 @@
       </section>
       <section class="completed-tasks">
         <h3 class="heading">Completed</h3>
-        <ul class="tasks__list" id="completed-tasks">
+        <ul class="tasks__list tasks__list_complete">
           <li class="tasks__item">
             <input class="tasks__checkbox" type="checkbox" checked>
-            <label class="tasks__label tasks__label_completed">See the Doctor</label>
+            <label class="tasks__label">See the Doctor</label>
             <input class="tasks__input" type="text">
             <button class="tasks__btn_edit">Edit</button>
             <button class="tasks__btn_delete">
